@@ -12,3 +12,5 @@ download the source-vectors and source-vectors from here:
   - TRAIN.DICT (if any, should be given as a text file with one entry per line (source word + whitespace + target word))
   - SRC.EMB and TRG.EMB (refer to the input monolingual embeddings, which should be in the word2vec text format)
   - SRC_MAPPED.EMB and TRG_MAPPED.EMB (refer to the output cross-lingual embeddings)
+  - Command in this setting:`python3 map_embeddings.py --supervised ./mapping_dict.txt ./BERT_source.txt ./CBOW_target.txt ./BERT_mapped.txt ./CBOW_mapped.txt
+`
